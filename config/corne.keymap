@@ -27,10 +27,19 @@
 
         qwerty_layer {
             bindings = <
-&none  &kp Q  &kp W  &kp E    &kp R        &kp T    &kp Y     &kp U      &kp I      &kp O    &kp P     &none
-&none  &hm LGUI A  &hm LALT S  &hm LCTL D  &hm LSHFT F  &kp G  &kp H  &hm RSHFT J  &hm RCTL K  &hm RALT L  &hm RGUI SEMI  &kp SQT
-&none  &kp Z  &kp X  &kp C    &kp V        &kp B    &kp N     &kp M      &kp COMMA  &kp DOT  &kp FSLH  &none
-                     &kp ESC  &kp SPACE    &kp TAB  &kp BSPC  &kp ENTER  &kp DEL
+&none  &kp Q       &kp W       &kp E        &kp R        &kp T      &kp Y     &kp U        &kp I        &kp O                &kp P             &none
+&none  &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHFT F  &kp G      &kp H     &hm RSHFT J  &hm RCTRL K  &hm RALT L           &hm RGUI SEMI     &kp SQT
+&none  &kp Z       &kp X       &kp C        &kp V        &kp B      &kp N     &kp M        &kp COMMA    &hm LEFT_ALT PERIOD  &hm K_MENU SLASH  &none
+                               &kp ESC      &kp SPACE    &kp TAB    &kp BSPC  &lt 1 ENTER  &kp DEL
+            >;
+        };
+
+        numbers {
+            bindings = <
+&trans  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans        &kp NUMBER_0  &trans    &trans  &trans  &trans
             >;
         };
     };
