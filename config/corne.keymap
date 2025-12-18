@@ -56,10 +56,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LC(V)       &kp LC(C)       &kp LC(X)     &kp LC(Z)        &kp LC(Y)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans     &trans
-                        &trans  &trans  &trans    &mkp RCLK       &mkp LCLK       &mkp MCLK
+&trans  &trans    &trans    &trans     &trans     &trans    &kp LC(V)       &kp LC(C)       &kp LC(X)     &kp LC(Z)        &kp LC(Y)  &trans
+&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans     &trans
+&trans  &trans    &trans    &trans     &trans     &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans     &trans
+                            &trans     &trans     &trans    &mkp RCLK       &mkp LCLK       &mkp MCLK
             >;
         };
 
@@ -74,19 +74,19 @@
 
         symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp RA(APOS)  &kp LS(N7)  &kp LS(N8)     &kp LS(N9)        &kp RA(NON_US_HASH)    &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp RA(LBKT)  &kp RS(N4)  &kp RS(N5)     &kp LS(N6)        &kp RA(RBKT)           &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
+&trans  &kp BSLH      &kp RS(N1)  &kp RS(N2)     &kp RS(N3)        &kp LS(BSLH)           &trans  &trans     &trans     &kp LALT  &trans    &trans
+                                  &kp LS(EQUAL)  &kp LS(NUMBER_0)  &kp LS(MINUS)          &trans  &trans     &trans
             >;
         };
 
         fun {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp F12  &kp F7  &kp F8      &kp F9     &trans     &trans  &trans      &trans     &trans         &trans    &trans
+&trans  &kp F11  &kp F4  &kp F5      &kp F6     &trans     &trans  &kp RSHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RGUI  &trans
+&trans  &kp F10  &kp F1  &kp F2      &kp F3     &trans     &trans  &trans      &trans     &kp LEFT_ALT   &trans    &trans
+                         &kp K_MENU  &kp SPACE  &kp TAB    &trans  &trans      &trans
             >;
         };
     };
