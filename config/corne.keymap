@@ -69,7 +69,7 @@
         mouse {
             bindings = <
 &trans  &trans    &trans         &trans     &trans     &trans    &kp LC(V)       &kp LC(C)       &mmv MOVE_UP    &kp LC(Z)        &kp LC(Y)  &trans
-&trans  &kp LGUI  &kp LALT       &kp LCTRL  &kp LSHFT  &trans    &kp LC(X)       &mmv MOVE_DOWN  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans     &trans
+&trans  &kp LGUI  &kp LALT       &kp LCTRL  &kp LSHFT  &trans    &kp LC(X)       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans     &trans
 &trans  &trans    &kp RIGHT_ALT  &trans     &trans     &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP    &msc SCRL_RIGHT  &trans     &trans
                                  &trans     &trans     &trans    &mkp RCLK       &mkp LCLK       &mkp MCLK
             >;
