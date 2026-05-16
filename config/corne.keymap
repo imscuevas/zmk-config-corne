@@ -88,7 +88,7 @@
             bindings = <
 &trans  &kp RA(APOS)  &kp LS(N7)  &kp LS(N8)     &kp LS(N9)        &kp RA(NON_US_HASH)    &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &kp RA(LBKT)  &kp RS(N4)  &kp RS(N5)     &kp LS(N6)        &kp RA(RBKT)           &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
-&trans  &kp BSLH      &kp RS(N1)  &kp RS(N2)     &kp RS(N3)        &kp LS(BSLH)           &trans  &trans     &trans     &kp LALT  &trans    &trans
+&trans  &kp LS(BSLH)  &kp RS(N1)  &kp RS(N2)     &kp RS(N3)        &kp LS(GRAVE)          &trans  &trans     &trans     &kp LALT  &trans    &trans
                                   &kp LS(EQUAL)  &kp LS(NUMBER_0)  &kp LS(MINUS)          &trans  &trans     &trans
             >;
         };
