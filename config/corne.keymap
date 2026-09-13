@@ -43,7 +43,7 @@
             bindings = <
 &none  &kp Q       &kp W       &kp E          &kp R         &kp T         &kp Y             &kp U         &kp I          &kp O                &kp P             &none
 &none  &hm LGUI A  &hm LALT S  &hm LCTRL D    &hm LSHFT F   &kp G         &kp H             &hm RSHFT J   &hm RCTRL K    &hm RALT L           &hm RGUI SEMI     &kp SQT
-&none  &kp Z       &kp X       &kp C          &kp V         &kp B         &kp N             &kp M         &kp COMMA      &hm LEFT_ALT PERIOD  &hm K_MENU SLASH  &none
+&mo 7  &kp Z       &kp X       &kp C          &kp V         &kp B         &kp N             &kp M         &kp COMMA      &hm LEFT_ALT PERIOD  &hm K_MENU SLASH  &none
                                &ltq 4 ESCAPE  &ltq 2 SPACE  &ltq 3 TAB    &ltq 5 BACKSPACE  &ltq 1 ENTER  &ltq 6 DELETE
             >;
         };
@@ -99,6 +99,15 @@
 &trans  &kp F11  &kp F4  &kp F5      &kp F6     &kp SCROLLLOCK     &trans  &kp RSHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RGUI  &trans
 &trans  &kp F10  &kp F1  &kp F2      &kp F3     &kp PAUSE_BREAK    &trans  &trans      &trans     &kp LEFT_ALT   &trans    &trans
                          &kp K_MENU  &kp SPACE  &kp TAB            &trans  &trans      &trans
+            >;
+        };
+
+        magic {
+            bindings = <
+&bootloader  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &bootloader
+&none        &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none        &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+                           &none  &none  &none    &none  &none  &none
             >;
         };
     };
