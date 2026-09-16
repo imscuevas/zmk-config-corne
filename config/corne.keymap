@@ -98,6 +98,15 @@
             #binding-cells = <0>;
             bindings = <&mkp MCLK>, <&mkp MB5>;
         };
+
+        caps_lock_word: caps_lock_word {
+            compatible = "zmk,behavior-mod-morph";
+            label = "CAPS_LOCK_WORD";
+            bindings = <&kp CAPS>, <&caps_word>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
